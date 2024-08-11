@@ -1,0 +1,60 @@
+{
+  "name": "react-responsive-image-zoom",
+  "version": "1.0.0",
+  "description": "A lightweight and customizable React component that provides a smooth zoom effect on images when hovered over. It supports responsive zoom factors based on screen width breakpoints,adapting to different screen, and includes an optional debug mode.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "image",
+    "img",
+    "zoom",
+    "zoom-in",
+    "magnify",
+    "magnifier",
+    "zoom-on-hover",
+    "image-zoom",
+    "responsive",
+    "accessible",
+    "mobile-friendly",
+    "react-component"
+  ],
+  "author": "https://github.com/SheeetFace",
+  "homepage":"https://github.com/SheeetFace/react-responsive-image-zoom",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SheeetFace/react-responsive-image-zoom"
+  },
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^17 || ^18",
+    "react-dom": "^17 || ^18"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "rollup": "^4.20.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.5.4"
+  }
+}
